@@ -1,0 +1,193 @@
+.logo {
+    width:100px;
+    height: 100px;
+    float: left
+}
+nav{
+    height: 100px;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 25px
+}
+
+ nav a{
+    text-decoration: none;
+    color: #6b2f1a;
+    font-size: 17px
+}
+
+header{
+    background-color: #dcc6bc
+}
+
+.heading{
+
+    background-image: url("/coffeefoto.jpg");
+    height: 400px;
+    color: #f6e1d7;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.heading h1{
+    font-size: 45px
+}
+
+.about{
+    display:flex;
+    flex-direction: column;
+    background-color: #dac5bb
+}
+
+.row-one{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.row-two{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 50px
+}
+
+.about h1{
+    color: #a2502a
+}
+
+.about p{
+    color: #6a2f1a
+}
+
+.menu {
+    display:flex;
+    align-items:center;
+    color:#692f1a
+}
+
+
+.au2 p{
+    display: flex;
+    padding-top:15px;
+    padding-left: 25px;
+    font-size: 18px;
+    justify-content: center;
+    color: #8d4828;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    background-color: #dac5bb
+}
+
+
+.menuimg{
+    width: 250px;
+    height: 250px;
+
+}
+
+.description{
+    border: 3px double #6a2f1a;
+    padding: 10px
+
+}
+
+.description h3{
+    color:#a1502a
+
+}
+
+body{
+    background-color: #dac5bb;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 20px;
+    color: #813d1e;
+    font-size: 17px;
+    width: 320px;
+    background-color: #eed7cc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.3)
+
+}
+
+.polya{
+    background-color: #f5e4db;
+    color: #ad502a;
+    border: 2px solid #bb947f;
+    border-radius: 3px;
+    width: 100%
+}
+
+form button{
+    background-color: #f3e2da;
+    border: 5px double #bb947f;
+    border-radius: 3px
+}
+
+.h1{
+    text-align: center;
+    color: #692f1a;
+    padding-top: 30px
+}
+
+.form{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    width: 320px;
+    background-color: #eed7cc;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.3);
+    color: #813d1e;
+    padding-bottom: 100px
+
+
+
+}
+
+.heading2{
+
+    background-image: url("/coffeefoto.jpg");
+    height: 400px;
+    color: #f6e1d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px
+}
+.heading2 h1{
+    font-size: 100px
+}
+
+nav a:hover{
+    color: #a1502a;
+    font-size: 20px
+}
+
+.coffee:hover{
+    box-shadow: 0 4px 12px rgba(155,86,55, 1);
+    padding:10px;
+    background-color: #e8d5cc;
+    border-radius: 10px
+}
